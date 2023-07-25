@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+  let a = "*"
+  let b = "&nbsp;&nbsp"
+  //cạnh dài đầu
+  for (let i = 0; i < 20; i++) {
+    document.write(a)
+  }
+  document.write('</br>')
+  //2 cạnh rộng
+  for (let i = 0; i < 5; i++) {
+
+
+      document.write(a)
+      for (let j = 0; j < 18; j++) {
+          document.write(b)
+      }
+      document.write(a)
+      document.write('</br>')
+  }
+  //cạnh dài cuối
+
+  for (let i = 0; i < 20; i++) {
+    document.write(a)
+  }
+  document.write('</br>')
+</script>
+</body>
+</html>
